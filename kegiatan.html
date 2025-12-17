@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yayasan Amal Mulya - Kegiatan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="images/foundation_logo.png" alt="Logo">
+                <span class="fw-bold text-success">Yayasan Amal Mulya</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Kegiatan</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pendidikan.html">Pendidikan</a></li>
+                            <li><a class="dropdown-item" href="pemberdayaan.html">Pemberdayaan</a></li>
+                            <li><a class="dropdown-item" href="usaha.html">Usaha</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="berita.html">Berita</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="informasi.html">Informasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-light py-5 mt-5">
+        <div class="container py-5 text-center">
+            <h1 class="fw-bold text-success">Program Kegiatan</h1>
+            <p class="lead text-secondary">Ikhtisar program-program unggulan Yayasan Amal Mulya.</p>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <!-- Pendidikan -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="images/education_activity.png" class="img-fluid rounded-4 shadow" alt="Pendidikan">
+                </div>
+                <div class="col-md-6 ps-md-5 mt-4 mt-md-0">
+                    <h2 class="fw-bold text-success">Pendidikan</h2>
+                    <p class="text-secondary lead">Mencetak generasi cerdas dan berkarakter melalui akses pendidikan yang merata.</p>
+                    <p class="text-secondary">Program beasiswa, rumah belajar, dan pelatihan skill untuk anak-anak prasejahtera.</p>
+                    <a href="pendidikan.html" class="btn btn-primary-custom mt-2">Selengkapnya</a>
+                </div>
+            </div>
+
+            <!-- Pemberdayaan -->
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+                <div class="col-md-6">
+                    <img src="images/empowerment_activity.png" class="img-fluid rounded-4 shadow" alt="Pemberdayaan">
+                </div>
+                <div class="col-md-6 pe-md-5 mt-4 mt-md-0">
+                    <h2 class="fw-bold text-warning">Pemberdayaan</h2>
+                    <p class="text-secondary lead">Membangun kemandirian ekonomi masyarakat.</p>
+                    <p class="text-secondary">Pelatihan menjahit, kerajinan tangan, dan kewirausahaan untuk ibu rumah tangga dan pemuda.</p>
+                    <a href="pemberdayaan.html" class="btn btn-outline-warning mt-2 text-dark">Selengkapnya</a>
+                </div>
+            </div>
+
+            <!-- Usaha -->
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/business_activity.png" class="img-fluid rounded-4 shadow" alt="Usaha">
+                </div>
+                <div class="col-md-6 ps-md-5 mt-4 mt-md-0">
+                    <h2 class="fw-bold text-dark">Unit Usaha</h2>
+                    <p class="text-secondary lead">Bisnis sosial untuk keberlanjutan yayasan.</p>
+                    <p class="text-secondary">Unit usaha katering, percetakan, dan penyewaan alat pesta yang keuntungannya untuk sosial.</p>
+                    <a href="usaha.html" class="btn btn-outline-dark mt-2">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center text-secondary mt-auto bg-white border-top">
+        <div class="container">
+            <small>&copy; 2024 Yayasan Amal Mulya.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

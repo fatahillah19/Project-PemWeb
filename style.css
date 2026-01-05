@@ -13,6 +13,10 @@ body {
     font-family: 'Outfit', sans-serif;
     color: var(--text-dark);
     line-height: 1.6;
+    background-color: var(--bg-light);
+    max-width: 100;
+    margin: 0;
+    
 }
 
 /* Navbar Styling */
@@ -53,7 +57,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    height: 600px;
+    height: 700px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -97,6 +101,8 @@ body {
     height: 200px;
     object-fit: cover;
 }
+
+
 
 /* Footer */
 footer {

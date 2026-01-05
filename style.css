@@ -77,11 +77,13 @@ body {
     z-index: 2;
 }
 
+
+
 /* Cards */
 .card {
     border: none;
     border-radius: 1rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(10, 40, 209, 0.05);
     transition: transform 0.3s, box-shadow 0.3s;
     overflow: hidden;
 }
@@ -144,4 +146,25 @@ footer {
 
 .gallery-item:hover img {
     transform: scale(1.1);
+}
+
+/* Dropdown muncul saat hover */
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Animasi halus ala Apple */
+.navbar .dropdown-menu {
+  margin-top: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: .25s ease;
+  border-radius: 10px;
+}
+
+/* Tetap rapi di desktop */
+.navbar .dropdown:hover > .nav-link {
+  color: #198754;
 }

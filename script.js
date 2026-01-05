@@ -8,6 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
             link.classList.add('active');
         }
     });
+    
+    const links = document.querySelectorAll('.nav-link');
+
+    links.forEach(link => {
+        link.classList.remove('active'); // pastikan semua tidak aktif dulu
+
+        if (link.href === window.location.href) {
+        link.classList.add('active'); // aktifkan hanya halaman yang sedang dibuka
+        }
+    });
 
     // Simple Form Validation for Contact Page
     const contactForm = document.getElementById('contactForm');
